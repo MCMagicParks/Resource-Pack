@@ -1,0 +1,34 @@
+name: Optimize resource pack
+on: [push, workflow_dispatch]
+jobs:
+  packsquash:
+    permissions: write-all
+    name: Optimize resource pack
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # A non-shallow repository clone is required
+      - name: Run PackSquash
+        uses: ComunidadAylas/PackSquash-action@v3
+        with:
+          path: pack
+      - name: Download optimized pack
+        uses: actions/download-artifact@v3
+        with:
+          name: Optimized pack
+
+      - name: Generate Hash
+        run: sha1sum pack.zip | head -c 40 > hash.txt
+      
+      - name: Copy Pack For Plugin
+        run: cp pack.zip $(cat hash.txt).zip
+
+      - name: Tag and create release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: latest
+          files: |
+            *.zip
+            hash.txt
