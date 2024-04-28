@@ -2,14 +2,14 @@
 	"credit": "Model_generated_using_MrCrayfish's_Model_Creator_(http://mrcrayfish.com/modelcreator/)",
 	"ambientocclusion": false,
 	"textures": {
-		"1": "block/gray_wool",
-		"particle": "block/bricks"
+		"1": "block/gray_wool"
 	},
 	"elements": [
 		{
 			"name": "Cube",
 			"from": [1, 0, 0],
 			"to": [2, 2, 16],
+			"rotation": {"angle": -45, "axis": "x", "origin": [0, 0, 0]},
 			"faces": {
 				"north": {"uv": [9, 0, 10, 16], "texture": "#1"},
 				"east": {"uv": [9, 0, 10, 16], "texture": "#1"},
@@ -23,6 +23,7 @@
 			"name": "Cube",
 			"from": [14, 0, 0],
 			"to": [15, 2, 16],
+			"rotation": {"angle": -45, "axis": "x", "origin": [0, 0, 0]},
 			"faces": {
 				"north": {"uv": [6, 0, 7, 16], "texture": "#1"},
 				"east": {"uv": [6, 0, 7, 16], "texture": "#1"},
