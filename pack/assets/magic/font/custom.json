@@ -1,0 +1,95 @@
+{
+    "providers":
+    [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/font/ui/bump_background/achievement/generic_01.png",
+            "ascent": 14,
+            "height": 64,
+            "chars":
+            [
+                "\uE001"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/font/ui/bump_background/achievement/generic_02.png",
+            "ascent": 14,
+            "height": 64,
+            "chars":
+            [
+                "\uE002"
+            ]
+        },
+	 {
+            "type": "bitmap",
+            "file": "minecraft:custom/font/ui/bump_background/achievement/generic_03.png",
+            "ascent": 14,
+            "height": 64,
+            "chars":
+            [
+                "\uE003"
+            ]
+	},
+	 {
+            "type": "bitmap",
+            "file": "minecraft:custom/font/ui/bump_background/achievement/generic_05.png",
+            "ascent": -50,
+            "height": 64,
+            "chars":
+            [
+                "\uE004"
+            ]
+	},
+	 {
+            "type": "bitmap",
+            "file": "minecraft:custom/font/ui/bump_background/achievement/generic_06.png",
+            "ascent": -50,
+            "height": 64,
+            "chars":
+            [
+                "\uE005"
+            ]
+	 },
+	  {
+            "type": "bitmap",
+            "file": "minecraft:custom/font/ui/bump_background/achievement/generic_07.png",
+            "ascent": -50,
+            "height": 64,
+            "chars":
+            [
+                "\uE006"
+            ]
+	 },
+	  {
+            "type": "bitmap",
+            "file": "minecraft:custom/font/ui/bump_background/achievement/generic_09.png",
+            "ascent": -114,
+            "height": 64,
+            "chars":
+            [
+                "\uE007"
+            ]
+	 },
+          {
+            "type": "bitmap",
+            "file": "minecraft:custom/font/ui/bump_background/achievement/generic_10.png",
+            "ascent": -114,
+            "height": 64,
+            "chars":
+            [
+                "\uE008"
+            ]
+	 },
+	  {
+            "type": "bitmap",
+            "file": "minecraft:custom/font/ui/bump_background/achievement/generic_11.png",
+            "ascent": -114,
+            "height": 64,
+            "chars":
+            [
+                "\uE009"
+            ]
+	  }
+    ]
+}
