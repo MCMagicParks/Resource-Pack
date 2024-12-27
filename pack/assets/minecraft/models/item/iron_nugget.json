@@ -4,8 +4,9 @@
     "layer0": "minecraft:item/iron_nugget"
 },
   "overrides": [
-		{ "predicate": { "custom_model_data": 1 }, "model": "item/nemosea" },
-		{ "predicate": { "custom_model_data": 2 }, "model": "item/dorysea" }
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/seagulswim" },
+		{ "predicate": { "custom_model_data": 2 }, "model": "item/dorymodel" },
+                { "predicate": { "custom_model_data": 3 }, "model": "item/nemoswim" }
 
 	]
 }
