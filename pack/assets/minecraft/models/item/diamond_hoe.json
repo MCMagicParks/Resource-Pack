@@ -1571,6 +1571,7 @@
 		{"predicate": {"custom_model_data": 1 }, "model": "item/wdw/mk/monorail_black"},
 		{"predicate": {"custom_model_data": 2 }, "model": "item/wdw/mk/monorail_black_car"},
 		{"predicate": {"custom_model_data": 3 }, "model": "item/wdw/mk/monorail_black_ldoor"},
-		{"predicate": {"custom_model_data": 4 }, "model": "item/wdw/mk/monorail_black_rdoor"}
+		{"predicate": {"custom_model_data": 4 }, "model": "item/wdw/mk/monorail_black_rdoor"},
+		{"predicate": {"custom_model_data": 5 }, "model": "item/wdw/mk/peterpan"}
 	]
 }
