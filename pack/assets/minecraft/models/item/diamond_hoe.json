@@ -1573,5 +1573,6 @@
 		{"predicate": {"custom_model_data": 3 }, "model": "item/wdw/mk/monorail_black_ldoor"},
 		{"predicate": {"custom_model_data": 4 }, "model": "item/wdw/mk/monorail_black_rdoor"},
 		{"predicate": {"custom_model_data": 5 }, "model": "item/wdw/mk/peterpan"}
+		{"predicate": {"custom_model_data": 6 }, "model": "item/wdw/mk/monorail_spacer"}
 	]
 }
