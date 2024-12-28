@@ -1577,6 +1577,6 @@
 		{"predicate": {"custom_model_data": 7 }, "model": "item/wdw/mk/monorail_teal"},
 		{"predicate": {"custom_model_data": 8 }, "model": "item/wdw/mk/monorail_teal_car"},
 		{"predicate": {"custom_model_data": 9 }, "model": "item/wdw/mk/monorail_teal_ldoor"},
-		{"predicate": {"custom_model_data": 10 }, "model": "item/wdw/mk/monorail_teal_rdoor"},
+		{"predicate": {"custom_model_data": 10 }, "model": "item/wdw/mk/monorail_teal_rdoor"}
 	]
 }
