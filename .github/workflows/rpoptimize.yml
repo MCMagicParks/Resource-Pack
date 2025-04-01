@@ -16,6 +16,8 @@ jobs:
           packsquash_version: latest
           options: |
             pack_directory = 'pack'
+            ['**/*.png']
+            maximum_width_and_height = 24576
       - name: Download optimized pack
         uses: actions/download-artifact@v4
         with:
